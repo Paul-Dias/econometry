@@ -8,7 +8,7 @@ library(tidyverse)
 library(readr)
 library(readxl)
 
-dados <- read_csv("C:\\Users\\ppaul\\OneDrive\\Área de Trabalho\\pp.csv")
+dados <- read_csv("path to file")
 
 #validação dos tipos de dados, todos dever ser dbl
 spec(dados)
