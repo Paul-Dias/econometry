@@ -56,9 +56,9 @@ skim(dados)
 
 
 
-#Regressão da relação alvo do projeto
-modelo <- lm(numero_de_prisoes_efetuadas ~ ocorrencias_de_porte_de_entorpecentes + ocorrencias_de_porte_ilegal_de_arma, data = dados)
-summary(modelo)
+ #Regressão da relação alvo do projeto
+  modelo <- lm(numero_de_prisoes_efetuadas ~ ocorrencias_de_porte_de_entorpecentes + ocorrencias_de_porte_ilegal_de_arma + produto_interno_bruto_a_precos_correntes, data = dados)
+  summary(modelo)
 
 
 #Análises de regressão secundárias
